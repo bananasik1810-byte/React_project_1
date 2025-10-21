@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cardcomponent = ({title, imageUrl, description, imageAlt}) => {
+const CardComponent = ({title, imageUrl, description, imageAlt}) => {
   return (
     <div class="card h-100 shadow">
       <img 
@@ -18,4 +18,4 @@ const Cardcomponent = ({title, imageUrl, description, imageAlt}) => {
   );
 };
 
-export default Cardcomponent
+export default CardComponent
