@@ -1,33 +1,36 @@
 import React from 'react'
 import CardComponent from '../components/CardComponent';
+
 const CardsPage = () => {
   return (
     <div>
-      <div className="row g-4">
-          <div className="col-md-4">
+        <div className="row g-4">
+            <div className="col-md-4">
             <CardComponent
-            title="Лягушка 1"
+            title="Лягушечка 1"
             imageUrl = "/images/1.jpg"
-            description="Это самая крутая лягушка номер 1"
-            imageAlt="Лягушка 1"></CardComponent>
+            desctiption="Это самая крутая лягушечка номер 1"
+            imageAlt="Лягушечка 1"/>
           </div>
+          
           <div className="col-md-4">
             <CardComponent
-            title="Лягушка 2"
+            title="Лягушечка 2"
             imageUrl = "/images/2.jpg"
-            description="Это самая крутая лягушка номер 2 Это самая крутая лягушка номер 2 Это самая крутая лягушка номер 2 Это самая крутая лягушка номер 2 Это самая крутая лягушка номер 2"
-            imageAlt="Лягушка 2"></CardComponent>
+            desctiption="Это самая крутая лягушечка номер 2 Это самая крутая лягушечка номер 2 Это самая крутая лягушечка номер 2 Это самая крутая лягушечка номер 2"
+            imageAlt="Лягушечка 2"/>
           </div>
-          <div className="col-md-4">
+
+            <div className="col-md-4">
             <CardComponent
-            title="Лягушка 3"
+            title="Лягушечка 3"
             imageUrl = "/images/3.jpg"
-            description="Это самая крутая лягушка номер 3"
-            imageAlt="Лягушка 3"></CardComponent>
+            desctiption="Это самая крутая лягушечка номер 3"
+            imageAlt="Лягушечка 3"/>
           </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default CardsPage
+export default CardsPage;
