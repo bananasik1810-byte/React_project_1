@@ -28,6 +28,10 @@ const FormsPage = () => {
                                 <label className='form-label'>Отчество: </label>
                                 <input type="text" placeholder='Введите Отчество' className='form-control'/>
                             </div>
+                            <div className='mb-3'>
+                                <label className='form-label'>Email: </label>
+                                <input type="text" placeholder='Введите email' className='form-control'/>
+                            </div>
                             <button type="submit" className='btn btn-outline-primary'>Отправить</button>
                         </form>
                     </div>
