@@ -11,6 +11,8 @@ import DescriptionPage from './pages/DescriptionPage';
 import FormsPage from './pages/FormsPage';
 import MapsPage from './pages/MapsPage';
 import UsersPage from './pages/UsersPage';
+import TypeScriptPage from './pages/TypeScriptPage';
+import CalculatePage from './pages/CalculatePage';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
               <Link to="/forms" className="text-white text-decoration-none me-3">Формы</Link> 
               <Link to="/maps" className="text-white text-decoration-none me-3">Карты</Link> 
               <Link to="/users" className="text-white text-decoration-none me-3">Пользователи</Link> 
+              <Link to="/typescript" className="text-white text-decoration-none me-3">TS</Link> 
+              <Link to="/calc" className="text-white text-decoration-none me-3">Калькулятор</Link> 
             </div>
           </div>
         </div>
@@ -46,6 +50,8 @@ function App() {
           <Route path="/forms" element={<FormsPage/>}/>
           <Route path="/maps" element={<MapsPage/>}/>
           <Route path="/users" element={<UsersPage/>}/>
+          <Route path="/typescript" element={<TypeScriptPage/>}/>
+          <Route path="/calc" element={<CalculatePage/>}/>
         </Routes>
       </main>
       <footer className="bg-secondary py-3 mt-auto">
